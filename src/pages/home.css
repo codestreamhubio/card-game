@@ -1,0 +1,65 @@
+.home {
+  margin-top: 50px;
+  max-width: 440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.close-card {
+  background-color: #000;
+  color: #fff;
+}
+
+.open-card {
+  background-color: #fff;
+  color: #000;
+}
+
+.remove-card {
+    background-color: green;
+}
+
+.restart-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    background-color: #fff;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restart-button {
+    background-color: green;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.restart-button:hover {
+    opacity: 0.85;
+}
